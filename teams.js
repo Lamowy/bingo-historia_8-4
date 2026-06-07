@@ -32,7 +32,7 @@ var Team = /** @class */ (function () {
         return this._color;
     };
     Team.prototype.reward = function () {
-        this._points += 70;
+        this._points += 10;
         this._reoccupies += 1;
         this._hints += 1;
     };
